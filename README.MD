@@ -1,5 +1,6 @@
+# AI Agent for querying GITHUB via MCP
 GitHub Agent with LangGraph, FastAPI, and Streamlit
-This project demonstrates a conversational AI agent designed to interact with the GitHub API using a ReAct (Reasoning and Acting) pattern. It leverages LangGraph for orchestrating the agent's logic, FastMCP for exposing GitHub tools as microservices, FastAPI for the agent's backend API, and Streamlit for a user-friendly chat interface.
+This project demonstrates a conversational AI agent designed to interact with the GitHub API via MCP(Model Context Protocol). It leverages LangGraph for orchestrating the agent's logic, FastAPI for exposing the agent's endpoint, and Streamlit for a user-friendly chat interface.
 
 The agent can search repositories, list user repositories, fetch branches, commits, and issues for a given repository, all by intelligently calling the appropriate tools.
 
